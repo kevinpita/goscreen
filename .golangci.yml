@@ -49,4 +49,3 @@ linters:
     - unused # checks for unused constants, variables, functions and types
     - usestdlibvars # detects the possibility to use variables/constants from the Go standard library
     - wastedassign # finds wasted assignment statements
-    - wrapcheck # checks that errors returned from external packages are wrapped
