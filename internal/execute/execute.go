@@ -15,8 +15,7 @@ func New() Execute {
 	return &cmd{}
 }
 
-type cmd struct {
-}
+type cmd struct{}
 
 // LookPath calls exec.LookPath.
 func (*cmd) LookPath(file string) (string, error) {

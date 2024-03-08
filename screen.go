@@ -3,8 +3,9 @@ package goscreen
 import (
 	"errors"
 	"fmt"
-	"github.com/kevinpita/goscreen/internal/execute"
 	"regexp"
+
+	"github.com/kevinpita/goscreen/internal/execute"
 )
 
 const (
